@@ -1,0 +1,10 @@
+import java.time.LocalDate;
+class Solution {
+    public int dayOfYear(String date) {
+        int d = date.length();
+        LocalDate t = LocalDate.parse(date);
+        return t.getDayOfYear();
+ 
+        
+    }
+}
